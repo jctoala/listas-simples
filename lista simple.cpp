@@ -1,4 +1,4 @@
-//Declaración de librerías
+//DeclaraciÃ³n de librerÃ­as
 #include <iostream>
 #include <stdlib.h>
 //Estructura
@@ -13,7 +13,7 @@ void irInicio (Nodo **, Nodo **);
 void irFinal (Nodo **, Nodo **);
 void avanzar (Nodo **);
 void mostrar (Nodo **);
-//función main
+//funciÃ³n main
 using namespace std;
 int main(){
 	Nodo *cab = NULL, *ult = NULL, *pvte = NULL;
@@ -126,7 +126,7 @@ void avanzar (Nodo **pvte){
 void mostrar(Nodo **cab){
 	Nodo *aux;
 	if (vacia(cab))
-		cout << "La pila esta vacia";
+		cout << "La lista esta vacia" << endl;
 	else {
 		aux = *cab;
 		while (aux != NULL){
